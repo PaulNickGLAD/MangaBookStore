@@ -18,9 +18,7 @@
 <b> Description:</b>${product.description}<br>
 <b> Price:</b>${product.price}<br>
 <b> Author:</b>${product.author}<br>
-<hr>
-<form action="/product/remove/${product.id}" method="post">
-    <input type="Submit" value="Remove"/>
-</form>
+<b> User:</b>${product.user.name}<br>
+<b> Phone number:</b>${product.user.phoneNumber}<br>
 </body>
 </html>
