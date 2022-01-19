@@ -18,7 +18,6 @@
 <b> Description:</b>${product.description}<br>
 <b> Price:</b>${product.price}<br>
 <b> Author:</b>${product.author}<br>
-<b> User:</b>${product.user.name}<br>
-<b> Phone number:</b>${product.user.phoneNumber}<br>
+<b> User:</b><a href="/user/${product.user.id}">${product.user.name}</a><br>
 </body>
 </html>
